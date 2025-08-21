@@ -7,7 +7,6 @@ export const metadata = {
 
 const Homepage = async () => {
   const latestProducts = await getLatestProducts();
-
   return ( <ProductList data={latestProducts} title="Newest Arrivals"/> );
 }
  
